@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './App.css'
 
 const App = () => {
 	const [team, setTeam] = useState([])
@@ -77,8 +78,8 @@ const App = () => {
 	])
 
 	return (
-		<div>
-			<h1>Hello World</h1>
+		<div className="container mx-auto my-10 text-white">
+			<h1 className="text-4xl font-extrabold">Hello World!</h1>
 		</div>
 	)
 }
