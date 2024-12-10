@@ -3,7 +3,7 @@ import './App.css'
 
 const App = () => {
 	const [team, setTeam] = useState([])
-	const [money, setMoney] = useState(120)
+	const [money, setMoney] = useState(100)
 	const [zombieFighters, setZombieFighters] = useState([
 		{
 			name: 'Survivor',
@@ -110,21 +110,21 @@ const App = () => {
 			<h1 className="text-4xl font-extrabold">Zombie Fighters</h1>
 			<div className="grid grid-cols-3 gap-5 my-10">
 				<div
-					className="flex flex-col items-center gap-2 bg-slate-800 rounded-2xl p-6 w-full 
+					className="flex flex-col items-center gap-2 bg-slate-900 rounded-2xl p-6 w-full 
                       bg-clip-padding bg-opacity-60 border border-gray-100 border-opacity-15"
 				>
 					<h2 className="text-lg font-semibold text-center">Money</h2>
 					<p>${money}</p>
 				</div>
 				<div
-					className="flex flex-col items-center gap-2 bg-slate-800 rounded-2xl p-6 w-full 
+					className="flex flex-col items-center gap-2 bg-slate-900 rounded-2xl p-6 w-full 
                       bg-clip-padding bg-opacity-60 border border-gray-100 border-opacity-15"
 				>
 					<h2 className="text-lg font-semibold text-center">Team Strength</h2>
 					<p>{strength}</p>
 				</div>
 				<div
-					className="flex flex-col items-center gap-2 bg-slate-800 rounded-2xl p-6 w-full 
+					className="flex flex-col items-center gap-2 bg-slate-900 rounded-2xl p-6 w-full 
                       bg-clip-padding bg-opacity-60 border border-gray-100 border-opacity-15"
 				>
 					<h2 className="text-lg font-semibold text-center">Team Agility</h2>
